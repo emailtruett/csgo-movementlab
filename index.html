@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Movement / 01</title><link rel="stylesheet" href="style.css"><script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js"}}</script></head>
+<body>
+<link rel="stylesheet" href="hud.css">
+<canvas id="game" aria-label="Mapa treningowa FPS"></canvas>
+<header><a class="brand" href="./"><span class="mark">M</span> MOVEMENT<span class="slash">/</span><span class="muted">02</span></a><div class="build"><i></i> LOCAL BUILD <span>64 TICK</span></div></header>
+<main id="menu">
+ <section class="intro"><div class="eyebrow">PODSTAWY / SOURCE MOVEMENT</div><h1>Wszystko zaczyna<br>się od <em>ruchu.</em></h1><p>Pusta mapa. Pełna kontrola.<br>Movement CS:GO i oryginalny karambit.</p><button id="play" disabled>Ładowanie…</button><div class="keyboard"><span><kbd>W A S D</kbd> ruch</span><span><kbd>SPACJA</kbd> skok</span><span><kbd>CTRL</kbd> kucanie</span><span><kbd>SHIFT</kbd> chód</span><span><kbd>F</kbd> inspekcja</span><span><kbd>3</kbd> wyciągnięcie</span><span><kbd>LPM</kbd> cięcie</span><span><kbd>PPM</kbd> pchnięcie</span></div><div class="settings"><label for="sensitivity">Czułość myszy <output id="sens-value">2.00</output></label><input id="sensitivity" type="range" min="0.2" max="5" step="0.05" value="2"><small>Skala CS:GO · m_yaw 0.022 · bez wygładzania</small></div><p id="error" role="alert"></p><a style="display:block;color:#cfe48b;font-size:11px;margin-top:14px" href="viewer.html">Podgląd oryginalnych animacji ↗</a></section>
+ <aside><span class="eyebrow">POLIGON TESTOWY</span><h2>Movement lab</h2><ol><li><b>01</b><span>Otwarta przestrzeń<small>Przyspieszanie i counter-strafe</small></span></li><li><b>02</b><span>Schody i rampa<small>Stopnie 16 u · nachylenie 1:4</small></span></li><li><b>03</b><span>Platformy do skoków<small>48 / 64 / 96 jednostek</small></span></li><li><b>04</b><span>Niski korytarz<small>Przejście tylko na kucająco</small></span></li></ol><div class="aside-foot">KARAMBIT <span>ETAP 002</span></div></aside>
+ <footer>Port reguł ruchu z kodu CS:GO 2018<span>Wersja rozwojowa · zgodność 1:1 w trakcie weryfikacji</span></footer>
+</main>
+<div id="hud" hidden><div class="location"><i></i> MOVEMENT LAB <span>SWOBODNY TRENING</span></div><div id="crosshair"></div><div class="telemetry"><span id="state">NA ZIEMI</span><div><strong id="speed">0</strong><span>u/s</span></div><div class="speedbar"><i id="speedbar"></i></div><small>PRĘDKOŚĆ POZIOMA</small></div><div class="hudkeys"><kbd>R</kbd> powrót na start <kbd>ESC</kbd> pauza</div><div class="debug"><span id="position">0 / 0 / 0</span><span id="fps">60 FPS</span></div></div>
+<script src="startup.js"></script>
+</body></html>
+

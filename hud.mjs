@@ -1,0 +1,8 @@
+import {assetURL} from './asset-url.mjs';
+export function createHUD(world){
+ const root=document.createElement('div');root.id='source-hud';root.hidden=true;root.innerHTML=`<div class="cs-location">Movement lab</div><div class="cs-radar"><canvas width="256" height="256" aria-label="Radar mapy" id="radar-map"></canvas><img class="radar-ring" src="assets/hud/radar-ring.svg" alt=""><img class="radar-player" src="assets/hud/radar-player.svg" alt=""></div><div class="cs-money">$800</div><img class="cs-score" src="assets/hud/score.svg" alt="Wynik 0:0"><img class="cs-health" src="assets/hud/health.svg" alt="100 zdrowia, 100 pancerza"><div class="cs-weapon"><img src="assets/hud/karambit.svg" alt="Karambit"><span class="cs-slot">3</span><span class="cs-weapon-name">★ Karambit</span></div><div class="cs-crosshair"><i></i><b></b></div>`;document.body.append(root);
+ for(const img of root.querySelectorAll('img'))img.src=assetURL(img.getAttribute('src'));
+ const canvas=root.querySelector('canvas'),ctx=canvas.getContext('2d');
+ const resize=()=>root.style.setProperty('--hud-scale',String(innerHeight/720*.85));resize();addEventListener('resize',resize);
+ return {root,update(player,yaw){ctx.clearRect(0,0,256,256);ctx.save();ctx.beginPath();ctx.arc(128,128,125,0,Math.PI*2);ctx.clip();ctx.fillStyle='rgba(0,0,0,.48)';ctx.fillRect(0,0,256,256);ctx.translate(128,128);ctx.rotate(yaw-Math.PI/2);const zoom=.16;ctx.scale(zoom,-zoom);ctx.translate(-player.pos[0],-player.pos[1]);ctx.fillStyle='#697077';ctx.fillRect(-1000,-900,2000,1800);for(const b of world.brushes){if(b.tag==='floor')continue;ctx.fillStyle=b.tag==='wall'?'#a6a6a4':'#85898b';ctx.fillRect(b.min[0],b.min[1],b.max[0]-b.min[0],b.max[1]-b.min[1]);}ctx.restore();}};
+}
