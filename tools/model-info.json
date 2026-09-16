@@ -1,0 +1,688 @@
+{
+  "name": "models/weapons/v_knife_karam.mdl",
+  "version": 49,
+  "bones": [
+    "v_weapon",
+    "v_weapon.knife",
+    "v_weapon.Bip01_R_Forearm",
+    "v_weapon.Bip01_R_Hand",
+    "v_weapon.Bip01_R_Finger4",
+    "v_weapon.Bip01_R_Finger41",
+    "v_weapon.Bip01_R_Finger42",
+    "v_weapon.Bip01_L_Forearm",
+    "v_weapon.Bip01_L_Hand",
+    "v_weapon.Bip01_L_Finger0",
+    "v_weapon.Bip01_L_Finger01",
+    "v_weapon.Bip01_L_Finger02",
+    "v_weapon.Bip01_L_Finger1",
+    "v_weapon.Bip01_L_Finger11",
+    "v_weapon.Bip01_L_Finger12",
+    "v_weapon.Bip01_L_Finger2",
+    "v_weapon.Bip01_L_Finger21",
+    "v_weapon.Bip01_L_Finger22",
+    "v_weapon.Bip01_L_Finger3",
+    "v_weapon.Bip01_L_Finger31",
+    "v_weapon.Bip01_L_Finger32",
+    "v_weapon.Bip01_L_Finger4",
+    "v_weapon.Bip01_L_Finger41",
+    "v_weapon.Bip01_L_Finger42",
+    "v_weapon.Bip01_L_ForeTwist",
+    "v_weapon.Bip01_R_Finger0",
+    "v_weapon.Bip01_R_Finger01",
+    "v_weapon.Bip01_R_Finger02",
+    "v_weapon.Bip01_R_Finger1",
+    "v_weapon.Bip01_R_Finger11",
+    "v_weapon.Bip01_R_Finger12",
+    "v_weapon.Bip01_R_Finger2",
+    "v_weapon.Bip01_R_Finger21",
+    "v_weapon.Bip01_R_Finger22",
+    "v_weapon.Bip01_R_Finger3",
+    "v_weapon.Bip01_R_Finger31",
+    "v_weapon.Bip01_R_Finger32",
+    "v_weapon.Bip01_R_ForeTwist",
+    "v_weapon.stattrack",
+    "v_weapon.uid"
+  ],
+  "materials": [
+    "karam"
+  ],
+  "paths": [
+    "models\\weapons\\v_models\\knife_karam\\"
+  ],
+  "anims": [],
+  "seqs": [],
+  "tail": [
+    [
+      336,
+      1
+    ],
+    [
+      340,
+      9636
+    ],
+    [
+      344,
+      0
+    ],
+    [
+      348,
+      16274
+    ],
+    [
+      352,
+      0
+    ],
+    [
+      356,
+      9644
+    ],
+    [
+      360,
+      0
+    ],
+    [
+      364,
+      9316
+    ],
+    [
+      368,
+      0
+    ],
+    [
+      372,
+      0
+    ],
+    [
+      376,
+      0
+    ],
+    [
+      380,
+      0
+    ],
+    [
+      384,
+      0
+    ],
+    [
+      388,
+      9520
+    ],
+    [
+      392,
+      0
+    ],
+    [
+      396,
+      0
+    ]
+  ]
+}
+{
+  "name": "models/weapons/v_knife_karam_anim.mdl",
+  "version": 49,
+  "bones": [
+    "v_weapon",
+    "v_weapon.knife",
+    "v_weapon.Bip01_R_Forearm",
+    "v_weapon.Bip01_R_Hand",
+    "v_weapon.Bip01_R_Finger4",
+    "v_weapon.Bip01_R_Finger41",
+    "v_weapon.Bip01_R_Finger42",
+    "v_weapon.Bip01_L_Forearm",
+    "v_weapon.Bip01_L_Hand",
+    "v_weapon.Bip01_L_Finger0",
+    "v_weapon.Bip01_L_Finger01",
+    "v_weapon.Bip01_L_Finger02",
+    "v_weapon.Bip01_L_Finger1",
+    "v_weapon.Bip01_L_Finger11",
+    "v_weapon.Bip01_L_Finger12",
+    "v_weapon.Bip01_L_Finger2",
+    "v_weapon.Bip01_L_Finger21",
+    "v_weapon.Bip01_L_Finger22",
+    "v_weapon.Bip01_L_Finger3",
+    "v_weapon.Bip01_L_Finger31",
+    "v_weapon.Bip01_L_Finger32",
+    "v_weapon.Bip01_L_Finger4",
+    "v_weapon.Bip01_L_Finger41",
+    "v_weapon.Bip01_L_Finger42",
+    "v_weapon.Bip01_L_ForeTwist",
+    "v_weapon.Bip01_R_Finger0",
+    "v_weapon.Bip01_R_Finger01",
+    "v_weapon.Bip01_R_Finger02",
+    "v_weapon.Bip01_R_Finger1",
+    "v_weapon.Bip01_R_Finger11",
+    "v_weapon.Bip01_R_Finger12",
+    "v_weapon.Bip01_R_Finger2",
+    "v_weapon.Bip01_R_Finger21",
+    "v_weapon.Bip01_R_Finger22",
+    "v_weapon.Bip01_R_Finger3",
+    "v_weapon.Bip01_R_Finger31",
+    "v_weapon.Bip01_R_Finger32",
+    "v_weapon.Bip01_R_ForeTwist"
+  ],
+  "materials": [],
+  "paths": [
+    "models\\weapons\\v_models\\knife_karam/"
+  ],
+  "anims": [
+    {
+      "name": "@draw",
+      "p": 8924,
+      "fps": 30,
+      "flags": 64,
+      "frames": 31,
+      "block": 1,
+      "index": 0,
+      "section": 1300,
+      "sectionframes": 30
+    },
+    {
+      "name": "@idle1",
+      "p": 9024,
+      "fps": 30,
+      "flags": 64,
+      "frames": 61,
+      "block": 1,
+      "index": 9440,
+      "section": 1232,
+      "sectionframes": 30
+    },
+    {
+      "name": "@idle2",
+      "p": 9124,
+      "fps": 30,
+      "flags": 64,
+      "frames": 61,
+      "block": 1,
+      "index": 18432,
+      "section": 1164,
+      "sectionframes": 30
+    },
+    {
+      "name": "@light_miss1",
+      "p": 9224,
+      "fps": 30,
+      "flags": 64,
+      "frames": 36,
+      "block": 2,
+      "index": 0,
+      "section": 1096,
+      "sectionframes": 30
+    },
+    {
+      "name": "@light_miss2",
+      "p": 9324,
+      "fps": 30,
+      "flags": 64,
+      "frames": 36,
+      "block": 2,
+      "index": 7344,
+      "section": 1028,
+      "sectionframes": 30
+    },
+    {
+      "name": "@light_hit1",
+      "p": 9424,
+      "fps": 30,
+      "flags": 64,
+      "frames": 36,
+      "block": 2,
+      "index": 16672,
+      "section": 960,
+      "sectionframes": 30
+    },
+    {
+      "name": "@light_hit2",
+      "p": 9524,
+      "fps": 30,
+      "flags": 64,
+      "frames": 36,
+      "block": 3,
+      "index": -7876,
+      "section": 892,
+      "sectionframes": 30
+    },
+    {
+      "name": "@light_backstab",
+      "p": 9624,
+      "fps": 30,
+      "flags": 64,
+      "frames": 36,
+      "block": 3,
+      "index": 1452,
+      "section": 824,
+      "sectionframes": 30
+    },
+    {
+      "name": "@light_backstab2",
+      "p": 9724,
+      "fps": 30,
+      "flags": 64,
+      "frames": 36,
+      "block": 3,
+      "index": 11164,
+      "section": 756,
+      "sectionframes": 30
+    },
+    {
+      "name": "@heavy_miss1",
+      "p": 9824,
+      "fps": 30,
+      "flags": 64,
+      "frames": 36,
+      "block": 3,
+      "index": 20876,
+      "section": 688,
+      "sectionframes": 30
+    },
+    {
+      "name": "@heavy_hit1",
+      "p": 9924,
+      "fps": 30,
+      "flags": 64,
+      "frames": 36,
+      "block": 4,
+      "index": 0,
+      "section": 620,
+      "sectionframes": 30
+    },
+    {
+      "name": "@heavy_backstab",
+      "p": 10024,
+      "fps": 30,
+      "flags": 64,
+      "frames": 36,
+      "block": 4,
+      "index": 7008,
+      "section": 552,
+      "sectionframes": 30
+    },
+    {
+      "name": "@lookat01",
+      "p": 10124,
+      "fps": 30,
+      "flags": 64,
+      "frames": 146,
+      "block": 5,
+      "index": -15752,
+      "section": 484,
+      "sectionframes": 30
+    }
+  ],
+  "seqs": [
+    {
+      "name": "draw",
+      "activity": "ACT_VM_DRAW",
+      "flags": 0,
+      "anim": 0,
+      "fadein": 0.20000000298023224,
+      "fadeout": 0.4000000059604645,
+      "events": [
+        {
+          "cycle": 0,
+          "id": 5004,
+          "options": "Weapon_Knife.Deploy"
+        }
+      ]
+    },
+    {
+      "name": "idle1",
+      "activity": "ACT_VM_IDLE",
+      "flags": 0,
+      "anim": 1,
+      "fadein": 0.4000000059604645,
+      "fadeout": 0.4000000059604645,
+      "events": []
+    },
+    {
+      "name": "idle2",
+      "activity": "ACT_VM_IDLE",
+      "flags": 0,
+      "anim": 2,
+      "fadein": 0.4000000059604645,
+      "fadeout": 0.4000000059604645,
+      "events": []
+    },
+    {
+      "name": "light_miss1",
+      "activity": "ACT_VM_MISSCENTER",
+      "flags": 2,
+      "anim": 3,
+      "fadein": 0.20000000298023224,
+      "fadeout": 0.20000000298023224,
+      "events": []
+    },
+    {
+      "name": "light_miss2",
+      "activity": "ACT_VM_MISSCENTER",
+      "flags": 2,
+      "anim": 4,
+      "fadein": 0.20000000298023224,
+      "fadeout": 0.20000000298023224,
+      "events": []
+    },
+    {
+      "name": "light_hit1",
+      "activity": "ACT_VM_HITCENTER",
+      "flags": 2,
+      "anim": 5,
+      "fadein": 0.20000000298023224,
+      "fadeout": 0.20000000298023224,
+      "events": []
+    },
+    {
+      "name": "light_hit2",
+      "activity": "ACT_VM_HITCENTER",
+      "flags": 2,
+      "anim": 6,
+      "fadein": 0.20000000298023224,
+      "fadeout": 0.20000000298023224,
+      "events": []
+    },
+    {
+      "name": "light_backstab",
+      "activity": "ACT_VM_SWINGHIT",
+      "flags": 2,
+      "anim": 7,
+      "fadein": 0.20000000298023224,
+      "fadeout": 0.20000000298023224,
+      "events": []
+    },
+    {
+      "name": "light_backstab2",
+      "activity": "ACT_VM_SWINGHIT",
+      "flags": 2,
+      "anim": 8,
+      "fadein": 0.20000000298023224,
+      "fadeout": 0.20000000298023224,
+      "events": []
+    },
+    {
+      "name": "heavy_miss1",
+      "activity": "ACT_VM_MISSCENTER2",
+      "flags": 2,
+      "anim": 9,
+      "fadein": 0.20000000298023224,
+      "fadeout": 0.20000000298023224,
+      "events": []
+    },
+    {
+      "name": "heavy_hit1",
+      "activity": "ACT_VM_HITCENTER2",
+      "flags": 2,
+      "anim": 10,
+      "fadein": 0.20000000298023224,
+      "fadeout": 0.20000000298023224,
+      "events": []
+    },
+    {
+      "name": "heavy_backstab",
+      "activity": "ACT_VM_SWINGHARD",
+      "flags": 2,
+      "anim": 11,
+      "fadein": 0.20000000298023224,
+      "fadeout": 0.20000000298023224,
+      "events": []
+    },
+    {
+      "name": "lookat01",
+      "activity": "",
+      "flags": 0,
+      "anim": 12,
+      "fadein": 0.30000001192092896,
+      "fadeout": 0.30000001192092896,
+      "events": [
+        {
+          "cycle": 0,
+          "id": 0,
+          "options": "1"
+        },
+        {
+          "cycle": 0.7172414064407349,
+          "id": 0,
+          "options": "0"
+        },
+        {
+          "cycle": 0.7103448510169983,
+          "id": 0,
+          "options": "0.3655172"
+        },
+        {
+          "cycle": 0.013793103396892548,
+          "id": 5004,
+          "options": "Weapon.WeaponMove1"
+        },
+        {
+          "cycle": 0.07586207240819931,
+          "id": 5004,
+          "options": "Weapon.WeaponMove2"
+        },
+        {
+          "cycle": 0.751724123954773,
+          "id": 5004,
+          "options": "Weapon.WeaponMove3"
+        }
+      ]
+    }
+  ],
+  "tail": [
+    [
+      336,
+      0
+    ],
+    [
+      340,
+      21508
+    ],
+    [
+      344,
+      0
+    ],
+    [
+      348,
+      28242
+    ],
+    [
+      352,
+      6
+    ],
+    [
+      356,
+      21508
+    ],
+    [
+      360,
+      0
+    ],
+    [
+      364,
+      8884
+    ],
+    [
+      368,
+      0
+    ],
+    [
+      372,
+      0
+    ],
+    [
+      376,
+      0
+    ],
+    [
+      380,
+      0
+    ],
+    [
+      384,
+      0
+    ],
+    [
+      388,
+      21508
+    ],
+    [
+      392,
+      0
+    ],
+    [
+      396,
+      0
+    ]
+  ]
+}
+{
+  "name": "models/weapons/ct_arms_sas.mdl",
+  "version": 49,
+  "bones": [
+    "v_weapon",
+    "Bip01",
+    "v_weapon.Bip01_Pelvis",
+    "v_weapon.Bip01_Spine",
+    "v_weapon.Bip01_Spine1",
+    "v_weapon.Bip01_Spine2",
+    "v_weapon.Bip01_Spine3",
+    "v_weapon.Bip01_Neck",
+    "v_weapon.Bip01_L_Clavicle",
+    "v_weapon.Bip01_L_UpperArm",
+    "v_weapon.Bip01_L_Forearm",
+    "v_weapon.Bip01_L_Hand",
+    "v_weapon.Bip01_L_Finger0",
+    "v_weapon.Bip01_L_Finger01",
+    "v_weapon.Bip01_L_Finger02",
+    "v_weapon.Bip01_L_Finger1",
+    "v_weapon.Bip01_L_Finger11",
+    "v_weapon.Bip01_L_Finger12",
+    "v_weapon.Bip01_L_Finger2",
+    "v_weapon.Bip01_L_Finger21",
+    "v_weapon.Bip01_L_Finger22",
+    "v_weapon.Bip01_L_Finger3",
+    "v_weapon.Bip01_L_Finger31",
+    "v_weapon.Bip01_L_Finger32",
+    "v_weapon.Bip01_L_Finger4",
+    "v_weapon.Bip01_L_Finger41",
+    "v_weapon.Bip01_L_Finger42",
+    "v_weapon.Bip01_L_ForeTwist",
+    "v_weapon.Bip01_R_Clavicle",
+    "v_weapon.Bip01_R_UpperArm",
+    "v_weapon.Bip01_R_Forearm",
+    "v_weapon.Bip01_R_Hand",
+    "v_weapon.Bip01_R_Finger0",
+    "v_weapon.Bip01_R_Finger01",
+    "v_weapon.Bip01_R_Finger02",
+    "v_weapon.Bip01_R_Finger1",
+    "v_weapon.Bip01_R_Finger11",
+    "v_weapon.Bip01_R_Finger12",
+    "v_weapon.Bip01_R_Finger2",
+    "v_weapon.Bip01_R_Finger21",
+    "v_weapon.Bip01_R_Finger22",
+    "v_weapon.Bip01_R_Finger3",
+    "v_weapon.Bip01_R_Finger31",
+    "v_weapon.Bip01_R_Finger32",
+    "v_weapon.Bip01_R_Finger4",
+    "v_weapon.Bip01_R_Finger41",
+    "v_weapon.Bip01_R_Finger42",
+    "v_weapon.Bip01_R_ForeTwist"
+  ],
+  "materials": [
+    "ct_fbi_glove",
+    "ct_arms_sas",
+    "ct_arms"
+  ],
+  "paths": [
+    "models\\weapons\\v_models\\arms\\",
+    ""
+  ],
+  "anims": [
+    {
+      "name": "@idle",
+      "p": 13268,
+      "fps": 30,
+      "flags": 0,
+      "frames": 1,
+      "block": 0,
+      "index": 108,
+      "section": 0,
+      "sectionframes": 0
+    }
+  ],
+  "seqs": [
+    {
+      "name": "idle",
+      "activity": "",
+      "flags": 0,
+      "anim": 0,
+      "fadein": 0.20000000298023224,
+      "fadeout": 0.20000000298023224,
+      "events": []
+    }
+  ],
+  "tail": [
+    [
+      336,
+      0
+    ],
+    [
+      340,
+      14256
+    ],
+    [
+      344,
+      0
+    ],
+    [
+      348,
+      21140
+    ],
+    [
+      352,
+      0
+    ],
+    [
+      356,
+      14256
+    ],
+    [
+      360,
+      0
+    ],
+    [
+      364,
+      13220
+    ],
+    [
+      368,
+      0
+    ],
+    [
+      372,
+      0
+    ],
+    [
+      376,
+      0
+    ],
+    [
+      380,
+      0
+    ],
+    [
+      384,
+      0
+    ],
+    [
+      388,
+      14024
+    ],
+    [
+      392,
+      0
+    ],
+    [
+      396,
+      0
+    ]
+  ]
+}
